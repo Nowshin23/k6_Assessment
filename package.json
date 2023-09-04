@@ -1,0 +1,17 @@
+{
+  "name": "k6_assessment_nowshin_laila",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:script": "k6 run src/tests/ScriptForStressTest.js",
+    "test:script1": "k6 run src/tests/ScriptBasedOnGivenInfo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "k6": "^0.0.0"
+  }
+}
