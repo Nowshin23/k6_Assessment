@@ -12,7 +12,7 @@ export const options = {
         Script_for_the_stress_test: {
             executor: "constant-vus",
             vus: 200,
-            duration: "10s"
+            duration: "10m"
         },
     }
 }
